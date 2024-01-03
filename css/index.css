@@ -1,0 +1,9 @@
+.indexbillede {
+  max-width: 80%;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+body {
+  background-color: #efede6;
+}
