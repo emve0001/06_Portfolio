@@ -8,6 +8,7 @@
 main {
   margin: 0 auto;
   box-sizing: border-box; /*ændrer højde&bredde af et html-element beregning. Inkl. padding&border i et elements saml. str.*/
+  padding-bottom: 100px;
 }
 
 /*BODY*/
@@ -15,7 +16,7 @@ body {
   background-color: #efede6;
   min-height: 110vh;
   font-family: "poppins", sans-serif;
-  background: radial-gradient(circle at top left, #efede6, #f0a1a1, #6d3636); /*gradient lavet med w3schools og jeg har brugt chatgpt*/
+  background: radial-gradient(circle at top left, #efede6, #d7b0b0, #6d3636); /*gradient lavet med w3schools og jeg har brugt chatgpt*/
   background-size: 200% 200%;
   background-position: top left;
 }
@@ -32,6 +33,7 @@ header {
   font-family: "poppins", sans-serif;
   font-weight: 100;
   font-style: normal;
+  font-size: 24px;
 }
 
 nav {
@@ -84,50 +86,141 @@ nav {
   transition: 0.2s linear;
 }
 
-/*INDEX-SIDE*/
+/*INDEX-SIDE DESKTOP*/
+@media screen and (min-width: 601px) {
+  /*FORSIDE-BILLEDE*/
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .indexbillede {
+    width: 60%;
+    margin-top: 10px;
+    padding: 20px;
+  }
+  /*PORTFOLIO-SIDE DESKTOP*/
+  .portfoliomenu ul {
+    list-style: none;
+    font-family: "poppins", sans-serif;
+    font-size: 50px;
+    line-height: 2;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 100px;
+  }
+  .portfoliomenu {
+    justify-content: center;
+    display: flex;
+  }
+  /*HOVER-EFFEKT*/
+  .portfoliomenu ul a:hover {
+    color: #f0a1a1;
+  }
+  a {
+    color: #164aae;
+    text-decoration: none;
+  }
+  a .underline {
+    position: absolute;
+    bottom: -3px; /*dette styre stregens længde*/
+    left: 0;
+    width: 100%;
+    height: 1px;
+  }
 
-/*FORSIDE-BILLEDE*/
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.indexbillede {
-  width: 70%;
-  margin-top: 10px;
-  padding: 10px;
-}
-/*PORTFOLIO-SIDE*/
-.portfoliomenu ul {
-  list-style: none;
-  font-family: "poppins", sans-serif;
-  font-size: 50px;
-  line-height: 2;
-  margin: 0px;
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  margin-left: 50px;
-  margin-top: 100px;
-}
-.portfoliomenu {
-  justify-content: center;
-  display: flex;
-}
-/*HOVER-EFFEKT*/
-.portfoliomenu ul a:hover {
-  color: #f0a1a1;
-}
-a {
-  color: #164aae;
-  text-decoration: none;
-}
-a .underline {
-  position: absolute;
-  bottom: -3px; /*dette styre stregens længde*/
-  left: 0;
-  width: 100%;
-  height: 1px;
+  /*OM MIG-SIDE DESKTOP*/
+  .overskrift h1 {
+    text-align: start; /* "start" så overskriften starter i venstre side*/
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+    margin: 0;
+    padding-left: 48px;
+  }
+  .ommigtekst {
+    padding-left: 50px;
+    margin-top: 10px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+    width: 400px;
+  }
+  .billedecontainer {
+    width: 50%; /* UNDERSØG DENNE KOMMENTAR!!!så billedet fylder halvdelen af skærmen*/
+    display: flex;
+    padding: 0; /* Jeg har lavet en container i div'en for ikke at ændre str. af det indre rum (så det ikke ser mindre ud)*/
+    justify-content: flex-start; /*indholdet starter fra venstre side af containeren*/
+    align-items: flex-start; /*så indholdet starter fra toppen af containeren*/
+    margin-top: 10px;
+  }
+  /*PORTRÆT BILLEDE*/
+  .portræt {
+    max-width: 400px;
+    height: auto; /*Bevarer billedets prorpotioner*/
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /*to kolonner med lige bredde*/
+    gap: 20px; /*ml.rum ml. gittercellerne*/
+    margin: 20px auto; /*sætter margin under og over conatineren*/
+    max-width: 1200px;
+  }
+
+  /* Venstre og højre-section bruger flex til at organisere indholdet i containeren*/
+  .venstre-section {
+    flex: 1; /* de strækker sig lige meget ift den tilgængelige plads*/
+    padding-right: 20px;
+  }
+  .højre-section {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  /*Firkantede boks bag ved CV*/
+  .firkant {
+    background-color: #d7b0b0;
+    color: #164aae;
+    padding: 20px;
+    text-align: start;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 80%;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  /*CV overskrift*/
+  .overskriftcv h1 {
+    text-align: start; /* "start" så overskriften starter i venstre side*/
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+    margin: 20px;
+    width: 100px;
+    /* padding-left: 48px; */
+  }
+  /*P-tekst*/
+  .cv {
+    margin-top: 10px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .cv p {
+    margin: 0; /* Nulstil margen, hvis det er nødvendigt */
+    padding-left: 20px; /* nulstiller p's padding for at justere det separat */
+  }
 }
 
 /*FOOTER*/
@@ -142,6 +235,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  backdrop-filter: blur(300px); /* Slørre-effekt så man ikke kan se p-tagget gennem footeren*/
 }
 .footerp {
   margin: 15px 0;
@@ -200,7 +294,7 @@ footer {
     font-size: 25px;
   }
 
-  /*INDEX-SIDE*/
+  /*INDEX-SIDE MOBILESITE*/
   .container {
     display: flex;
     justify-content: center;
@@ -212,10 +306,10 @@ footer {
     padding: 10px;
   }
 
-  /*PORTFOLIO-SIDE*/
+  /*PORTFOLIO-SIDE MOBILESITE*/
   .portfoliomenu ul {
     list-style: none;
-    font-family: "poppins", sans-serif;
+    font-family: "poppins", sans-serif; /*POPPINS THIN*/
     font-size: 50px;
     line-height: 2;
     margin: 0px;
@@ -239,5 +333,61 @@ footer {
     left: 0;
     width: 100%;
     height: 1px;
+  }
+  /*OM MIG-SIDE MOBILESITE*/
+  .overskrift h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+
+  .billedecontainer {
+    width: 100%;
+    display: flex;
+    padding: 0; /* Jeg har lavet en container i div'en for ikke at ændre str. af det indre rum (så det ikke ser mindre ud)*/
+    justify-content: center;
+    align-items: center;
+  }
+  .portræt {
+    max-width: 250px;
+    height: auto; /*Bevarer billedets prorpotioner*/
+    margin-top: 20px; /*Så billedet er tættere på h1*/
+    margin-bottom: 20px;
+  }
+  .ommigtekst {
+    text-align: justify;
+    line-height: 1.5;
+  }
+  .ommigtekst p {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+  }
+
+  .overskriftcv h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .cv {
+    text-align: justify;
+    line-height: 1.5;
+  }
+  .cv p {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
   }
 }
