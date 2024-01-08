@@ -390,4 +390,297 @@ footer {
     font-style: normal;
     font-weight: 200;
   }
+  /*02-GRUNDLÆGGENDE WEB MOBILESITE*/
+  .weboverskrift {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  /*Temabeskrivelse af 02 web*/
+  .temabeskrivelse {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+  }
+  .visitkort img {
+    max-width: 250px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+  }
+  .visitkortbeskrivelse {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+  }
+  .studiestartsprøve img {
+    max-width: 250px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+  }
+  .studiestartsprøvebeskrivelse {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+  }
+  .layoutdiagram img {
+    max-width: 250px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+  }
+  .layoutdiagrambeskrivelse {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+  }
+
+  /*03 UX/UI-DESIGN MOBILESITE*/
+  .uxui-overskrift {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  /*Temabeskrivelse af 03 UX/UI*/
+  .temabeskrivelse-ux-ui {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+  }
+  /* 03 WIREFRAMES*/
+
+  /*WIREFRAMES OVERSKRIFT*/
+  .wireframes-overskrift h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+
+  .wireframes img {
+    max-width: 250px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+  }
+  .wireframesto img {
+    max-width: 250px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+  }
+  .wireframes-tekst {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+  }
+  /* 03 MOODBOARD*/
+
+  /*MOODBOARD-OVERSKRIFT*/
+  .moodboard-overskrift h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .moodboard {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+  }
+  .moodboard img {
+    max-width: 250px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+  }
+  .moodboard-tekst {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+  }
+  /* 03 STYLETILE*/
+
+  /*STYLETILE OVERSKRIFT*/
+  .styletile-overskrift h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .styletile {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+  }
+  .styletile img {
+    max-width: 250px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+  }
+  .styletile-tekst {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+  }
+  /*03 HI-FI-WIREFRAME*/
+
+  /*HI-FI-WIREFRAME-OVERSKRIFT*/
+  .hifi-overskrift h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .hifi img {
+    max-width: 250px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+  }
+  .hifi-teksts {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+  }
+
+  /*03 TESTS*/
+
+  /*TESTS-OVERSKRIFT*/
+  .tests-overskrift h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  test img,
+  img {
+    max-width: 250px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+  }
+  .test-tekst {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+  }
+
+  /*03 LAYOUTDIAGRAM*/
+
+  /*LAYOUTDIAGRAM-OVERSKRIFT*/
+  .layoutdiagram-overskrift h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .layoutdiagram img {
+    max-width: 250px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+  }
+  .layoutdiagram-tekst {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+  }
+
+  /*03 KODE*/
+
+  /*KODE-OVERSKRIFT*/
+  .kode-overskrift {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .kode img,
+  img {
+    max-width: 250px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+  }
+  .kode-tekst {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+  }
 }
