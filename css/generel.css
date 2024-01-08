@@ -134,22 +134,31 @@ nav {
 
   /*OM MIG-SIDE DESKTOP*/
   .overskrift h1 {
-    text-align: start; /* "start" så overskriften starter i venstre side*/
+    text-align: start;
     font-family: "poppins", sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-style: normal;
     color: #164aae;
     margin: 0;
-    padding-left: 48px;
+    margin-bottom: 50px;
   }
-  .ommigtekst {
-    padding-left: 50px;
+  .hejmedstort {
     margin-top: 10px;
     font-family: "poppins", sans-serif;
     font-weight: 200;
     font-style: normal;
     color: #164aae;
-    width: 400px;
+    width: 100%;
+    line-height: 1;
+  }
+  .ommigtekst p {
+    margin-top: 10px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+    width: 100%;
+    line-height: 2;
   }
   .billedecontainer {
     width: 50%; /* UNDERSØG DENNE KOMMENTAR!!!så billedet fylder halvdelen af skærmen*/
@@ -157,7 +166,6 @@ nav {
     padding: 0; /* Jeg har lavet en container i div'en for ikke at ændre str. af det indre rum (så det ikke ser mindre ud)*/
     justify-content: flex-start; /*indholdet starter fra venstre side af containeren*/
     align-items: flex-start; /*så indholdet starter fra toppen af containeren*/
-    margin-top: 10px;
   }
   /*PORTRÆT BILLEDE*/
   .portræt {
@@ -166,7 +174,7 @@ nav {
   }
   .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr; /*to kolonner med lige bredde*/
+    grid-template-columns: 2fr 1fr; /*to kolonner med lige bredde*/
     gap: 20px; /*ml.rum ml. gittercellerne*/
     margin: 20px auto; /*sætter margin under og over conatineren*/
     max-width: 1200px;
@@ -195,31 +203,46 @@ nav {
     font-family: "poppins", sans-serif;
     font-weight: 200;
     font-style: normal;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
   }
-  /*CV overskrift*/
-  .overskriftcv h1 {
-    text-align: start; /* "start" så overskriften starter i venstre side*/
+  /*CV overskrift desktop*/
+  .overskriftcv-skills,
+  h1 {
+    text-align: start;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #164aae;
+    margin-bottom: 20px;
+  }
+  /*UNDEROVERSKRIFT*/
+  .relevante {
+    margin-top: 10px;
     font-family: "poppins", sans-serif;
     font-weight: 200;
     font-style: normal;
     color: #164aae;
-    margin: 20px;
-    width: 100px;
-    /* padding-left: 48px; */
+    text-align: start;
   }
-  /*P-tekst*/
+  .arbejde {
+    margin-top: 10px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+    line-height: 1;
+    text-align: start;
+  }
+
+  /*P-tekst og h2-tekst*/
   .cv {
     margin-top: 10px;
     font-family: "poppins", sans-serif;
     font-weight: 200;
     font-style: normal;
     color: #164aae;
-  }
-  .cv p {
-    margin: 0; /* Nulstil margen, hvis det er nødvendigt */
-    padding-left: 20px; /* nulstiller p's padding for at justere det separat */
+    line-height: 1;
+    text-align: start;
   }
 }
 
@@ -295,7 +318,7 @@ footer {
   }
 
   /*INDEX-SIDE MOBILESITE*/
-  .container {
+  .containerindex {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -336,14 +359,25 @@ footer {
   }
   /*OM MIG-SIDE MOBILESITE*/
   .overskrift h1 {
-    text-align: center;
+    text-align: start;
+    padding-left: 21px;
     margin-top: 30px;
     font-family: "poppins", sans-serif;
     font-weight: 200;
     font-style: normal;
     color: #164aae;
   }
+  .hejmedstort {
+    margin-top: 10px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+    line-height: 1.5;
+    padding-left: 23px;
+  }
 
+  /*Portræt MOBILESITE*/
   .billedecontainer {
     width: 100%;
     display: flex;
@@ -357,9 +391,10 @@ footer {
     margin-top: 20px; /*Så billedet er tættere på h1*/
     margin-bottom: 20px;
   }
+  /* TEKST OM MIG MOBILESITE*/
   .ommigtekst {
     text-align: justify;
-    line-height: 1.5;
+    line-height: 2;
   }
   .ommigtekst p {
     display: block;
@@ -369,27 +404,62 @@ footer {
     font-style: normal;
     font-weight: 200;
   }
-
-  .overskriftcv h1 {
-    text-align: center;
+  /*CV MOBILESITE*/
+  /*Firkantede boks bag ved CV*/
+  .firkant {
+    background-color: #d7b0b0;
+    color: #164aae;
+    padding: 20px;
+    text-align: start;
+    margin: 0 auto;
+    max-width: 800px;
+    width: 80%;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  /*Mit CV tekst*/
+  .overskriftcv-skills,
+  h1 {
+    text-align: start;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #164aae;
+  }
+  /*UNDEROVERSKRIFT*/
+  .relevante {
     margin-top: 30px;
     font-family: "poppins", sans-serif;
     font-weight: 200;
     font-style: normal;
     color: #164aae;
+    text-align: start;
   }
+  /*Overskrift, starter ved Relevante joberfaringer etc*/
+  .cv h2 {
+    margin-top: 10px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-size: x-large;
+    font-style: normal;
+    color: #164aae;
+  }
+  /*P-tekst*/
   .cv {
-    text-align: justify;
+    margin-top: 10px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
     line-height: 1.5;
   }
   .cv p {
-    display: block;
-    width: 400px;
-    margin: 0 auto;
-    color: #164aae;
-    font-style: normal;
-    font-weight: 200;
+    margin: 0; /* Nulstil margen, hvis det er nødvendigt */
+    padding-left: 20px; /* nulstiller p's padding for at justere det separat */
   }
+
   /*02-GRUNDLÆGGENDE WEB MOBILESITE*/
   .weboverskrift {
     text-align: center;
@@ -399,6 +469,14 @@ footer {
     font-style: normal;
     color: #164aae;
   }
+  .arbejde {
+    margin-top: 10px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+    line-height: 1.5;
+  }
   /*Temabeskrivelse af 02 web*/
   .temabeskrivelse {
     display: block;
@@ -407,6 +485,25 @@ footer {
     color: #164aae;
     font-style: normal;
     font-weight: 200;
+    padding: 20px;
+  }
+  /*VISITKORT MOBILESITE*/
+  .visitkort-overskrift h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .visitkort-beskrivelse {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding: 20px;
   }
   .visitkort img {
     max-width: 250px;
@@ -415,13 +512,24 @@ footer {
     margin-bottom: 20px;
     margin-left: 100px;
   }
-  .visitkortbeskrivelse {
+
+  /*STUDIESTARTSPRØVE MOBILESITE*/
+  .studiestartsprøve-overskrift h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .studiestartsprøve-beskrivelse {
     display: block;
     width: auto;
     margin: 0 auto;
     color: #164aae;
     font-style: normal;
     font-weight: 200;
+    padding: 20px;
   }
   .studiestartsprøve img {
     max-width: 250px;
@@ -430,13 +538,15 @@ footer {
     margin-bottom: 20px;
     margin-left: 100px;
   }
-  .studiestartsprøvebeskrivelse {
-    display: block;
-    width: auto;
-    margin: 0 auto;
-    color: #164aae;
-    font-style: normal;
+
+  /*LAYOUTDIAGRAM MOBILESITE*/
+  .layoutdiagram h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
     font-weight: 200;
+    font-style: normal;
+    color: #164aae;
   }
   .layoutdiagram img {
     max-width: 250px;
@@ -445,13 +555,71 @@ footer {
     margin-bottom: 20px;
     margin-left: 100px;
   }
-  .layoutdiagrambeskrivelse {
+  /*KODE MOBILESITE*/
+  .kode-overskrift h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .kode-beskrivelse {
     display: block;
     width: auto;
     margin: 0 auto;
     color: #164aae;
     font-style: normal;
     font-weight: 200;
+    padding: 20px;
+  }
+  .kode img {
+    max-width: 250px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+  }
+  /*PROCESS-BESKRIVELSE 02 MOBILESITE*/
+  .process {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .process-02 {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding: 20px;
+  }
+  /*TILBAGE TIL TOP KNAP*/ /*Genbrugt fra min index side opgave 05*/
+  .tilbage {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .tilbage-button-container {
+    text-align: center;
+  }
+  .tilbage-button {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #6d3636;
+    color: #d7b0b0;
+    border: 2px solid #d7b0b0;
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .tilbage-button:hover {
+    background-color: #6d3636;
+    color: #d7b0b0;
   }
 
   /*03 UX/UI-DESIGN MOBILESITE*/
@@ -471,10 +639,11 @@ footer {
     color: #164aae;
     font-style: normal;
     font-weight: 200;
+    padding: 20px;
   }
   /* 03 WIREFRAMES*/
 
-  /*WIREFRAMES OVERSKRIFT*/
+  /*WIREFRAMES OVERSKRIFT MOBILESITE*/
   .wireframes-overskrift h2 {
     text-align: center;
     margin-top: 30px;
@@ -483,7 +652,15 @@ footer {
     font-style: normal;
     color: #164aae;
   }
-
+  .wireframes-tekst {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding: 20px;
+  }
   .wireframes img {
     max-width: 250px;
     height: auto;
@@ -498,15 +675,8 @@ footer {
     margin-bottom: 20px;
     margin-left: 100px;
   }
-  .wireframes-tekst {
-    display: block;
-    width: auto;
-    margin: 0 auto;
-    color: #164aae;
-    font-style: normal;
-    font-weight: 200;
-  }
-  /* 03 MOODBOARD*/
+
+  /* 03 MOODBOARD MOBILESITE*/
 
   /*MOODBOARD-OVERSKRIFT*/
   .moodboard-overskrift h2 {
@@ -517,13 +687,14 @@ footer {
     font-style: normal;
     color: #164aae;
   }
-  .moodboard {
+  .moodboard-tekst {
     display: block;
     width: auto;
     margin: 0 auto;
     color: #164aae;
     font-style: normal;
     font-weight: 200;
+    padding: 20px;
   }
   .moodboard img {
     max-width: 250px;
@@ -532,15 +703,8 @@ footer {
     margin-bottom: 20px;
     margin-left: 100px;
   }
-  .moodboard-tekst {
-    display: block;
-    width: auto;
-    margin: 0 auto;
-    color: #164aae;
-    font-style: normal;
-    font-weight: 200;
-  }
-  /* 03 STYLETILE*/
+
+  /* 03 STYLETILE MOBILESITE*/
 
   /*STYLETILE OVERSKRIFT*/
   .styletile-overskrift h2 {
@@ -551,13 +715,14 @@ footer {
     font-style: normal;
     color: #164aae;
   }
-  .styletile {
+  .style-tekst {
     display: block;
     width: auto;
     margin: 0 auto;
     color: #164aae;
     font-style: normal;
     font-weight: 200;
+    padding: 20px;
   }
   .styletile img {
     max-width: 250px;
@@ -566,15 +731,8 @@ footer {
     margin-bottom: 20px;
     margin-left: 100px;
   }
-  .styletile-tekst {
-    display: block;
-    width: auto;
-    margin: 0 auto;
-    color: #164aae;
-    font-style: normal;
-    font-weight: 200;
-  }
-  /*03 HI-FI-WIREFRAME*/
+
+  /*03 HI-FI-WIREFRAME MOBILESITE*/
 
   /*HI-FI-WIREFRAME-OVERSKRIFT*/
   .hifi-overskrift h2 {
@@ -585,6 +743,15 @@ footer {
     font-style: normal;
     color: #164aae;
   }
+  .hifi-tekst {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding: 20px;
+  }
   .hifi img {
     max-width: 250px;
     height: auto;
@@ -592,16 +759,8 @@ footer {
     margin-bottom: 20px;
     margin-left: 100px;
   }
-  .hifi-teksts {
-    display: block;
-    width: auto;
-    margin: 0 auto;
-    color: #164aae;
-    font-style: normal;
-    font-weight: 200;
-  }
 
-  /*03 TESTS*/
+  /*03 TESTS MOBILESITE*/
 
   /*TESTS-OVERSKRIFT*/
   .tests-overskrift h2 {
@@ -612,6 +771,15 @@ footer {
     font-style: normal;
     color: #164aae;
   }
+  .test-tekst {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding: 20px;
+  }
   test img,
   img {
     max-width: 250px;
@@ -620,16 +788,8 @@ footer {
     margin-bottom: 20px;
     margin-left: 100px;
   }
-  .test-tekst {
-    display: block;
-    width: auto;
-    margin: 0 auto;
-    color: #164aae;
-    font-style: normal;
-    font-weight: 200;
-  }
 
-  /*03 LAYOUTDIAGRAM*/
+  /*03 LAYOUTDIAGRAM MOBILESITE*/
 
   /*LAYOUTDIAGRAM-OVERSKRIFT*/
   .layoutdiagram-overskrift h2 {
@@ -640,13 +800,6 @@ footer {
     font-style: normal;
     color: #164aae;
   }
-  .layoutdiagram img {
-    max-width: 250px;
-    height: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 100px;
-  }
   .layoutdiagram-tekst {
     display: block;
     width: auto;
@@ -654,18 +807,35 @@ footer {
     color: #164aae;
     font-style: normal;
     font-weight: 200;
+    padding: 20px;
+  }
+  .layoutdiagram img {
+    max-width: 250px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
   }
 
-  /*03 KODE*/
+  /*03 KODE MOBILESITE*/
 
   /*KODE-OVERSKRIFT*/
-  .kode-overskrift {
+  .kode-overskrift h2 {
     text-align: center;
     margin-top: 30px;
     font-family: "poppins", sans-serif;
     font-weight: 200;
     font-style: normal;
     color: #164aae;
+  }
+  .kode-tekst {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding: 20px;
   }
   .kode img,
   img {
@@ -675,12 +845,5 @@ footer {
     margin-bottom: 20px;
     margin-left: 100px;
   }
-  .kode-tekst {
-    display: block;
-    width: auto;
-    margin: 0 auto;
-    color: #164aae;
-    font-style: normal;
-    font-weight: 200;
-  }
+  /* 04 ANIMATION - MOBILESITE*/
 }
