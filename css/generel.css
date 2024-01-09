@@ -6,7 +6,7 @@
 
 /*MAIN*/
 main {
-  margin: 0 auto;
+  margin: 20px auto;
   box-sizing: border-box; /*ændrer højde&bredde af et html-element beregning. Inkl. padding&border i et elements saml. str.*/
   padding-bottom: 100px;
 }
@@ -21,7 +21,13 @@ body {
   background-position: top left;
 }
 
-/* DESKTOP */
+/* DESKTOP */ /* DESKTOP */ /* DESKTOP */ /* DESKTOP */ /* DESKTOP */
+/* DESKTOP */ /* DESKTOP */ /* DESKTOP */ /* DESKTOP */ /* DESKTOP */
+/* DESKTOP */ /* DESKTOP */ /* DESKTOP */ /* DESKTOP */ /* DESKTOP */
+/* DESKTOP */ /* DESKTOP */ /* DESKTOP */ /* DESKTOP */ /* DESKTOP */
+/* DESKTOP */ /* DESKTOP */ /* DESKTOP */ /* DESKTOP */ /* DESKTOP */
+/* DESKTOP */ /* DESKTOP */ /* DESKTOP */ /* DESKTOP */ /* DESKTOP */
+/* DESKTOP */ /* DESKTOP */ /* DESKTOP */ /* DESKTOP */ /* DESKTOP */
 
 /* BURGER-MENU*/
 header {
@@ -87,7 +93,16 @@ nav {
 }
 
 /*INDEX-SIDE DESKTOP*/
+/*INDEX-SIDE DESKTOP*/
+/*INDEX-SIDE DESKTOP*/
+/*INDEX-SIDE DESKTOP*/
 @media screen and (min-width: 601px) {
+  /*DESKTOP STYLING AF MAIN FOR AT GIVE MARGIN*/
+  .tema2-5styling {
+    margin: 400px;
+    margin-top: 80px;
+  }
+
   /*FORSIDE-BILLEDE*/
   .container {
     display: flex;
@@ -99,6 +114,9 @@ nav {
     margin-top: 10px;
     padding: 20px;
   }
+  /*PORTFOLIO-SIDE DESKTOP*/
+  /*PORTFOLIO-SIDE DESKTOP*/
+  /*PORTFOLIO-SIDE DESKTOP*/
   /*PORTFOLIO-SIDE DESKTOP*/
   .portfoliomenu ul {
     list-style: none;
@@ -133,6 +151,9 @@ nav {
   }
 
   /*OM MIG-SIDE DESKTOP*/
+  /*OM MIG-SIDE DESKTOP*/
+  /*OM MIG-SIDE DESKTOP*/
+  /*OM MIG-SIDE DESKTOP*/
   .overskrift h1 {
     text-align: start;
     font-family: "poppins", sans-serif;
@@ -160,14 +181,14 @@ nav {
     width: 100%;
     line-height: 2;
   }
-  .billedecontainer {
+  .billede-container {
     width: 50%; /* UNDERSØG DENNE KOMMENTAR!!!så billedet fylder halvdelen af skærmen*/
     display: flex;
     padding: 0; /* Jeg har lavet en container i div'en for ikke at ændre str. af det indre rum (så det ikke ser mindre ud)*/
     justify-content: flex-start; /*indholdet starter fra venstre side af containeren*/
     align-items: flex-start; /*så indholdet starter fra toppen af containeren*/
   }
-  /*PORTRÆT BILLEDE*/
+  /*PORTRÆT BILLEDE DESKTOP*/
   .portræt {
     max-width: 400px;
     height: auto; /*Bevarer billedets prorpotioner*/
@@ -191,7 +212,7 @@ nav {
     justify-content: flex-start;
     align-items: flex-start;
   }
-  /*Firkantede boks bag ved CV*/
+  /*Firkantede boks bag ved CV DESKTOP*/
   .firkant {
     background-color: #d7b0b0;
     color: #164aae;
@@ -204,7 +225,7 @@ nav {
     font-weight: 200;
     font-style: normal;
   }
-  /*CV overskrift desktop*/
+  /*CV overskrift DESKTOP*/
   .overskriftcv-skills,
   h1 {
     text-align: start;
@@ -215,7 +236,7 @@ nav {
     color: #164aae;
     margin-bottom: 20px;
   }
-  /*UNDEROVERSKRIFT*/
+  /*UNDEROVERSKRIFT DESKTOP*/
   .relevante {
     margin-top: 10px;
     font-family: "poppins", sans-serif;
@@ -234,7 +255,7 @@ nav {
     text-align: start;
   }
 
-  /*P-tekst og h2-tekst*/
+  /*P-tekst og h2-tekst DESKTOP*/
   .cv {
     margin-top: 10px;
     font-family: "poppins", sans-serif;
@@ -244,6 +265,490 @@ nav {
     line-height: 1;
     text-align: start;
   }
+
+  /*02-GRUNDLÆGGENDE WEB DESKTOP*/
+  /*02-GRUNDLÆGGENDE WEB DESKTOP*/
+  /*02-GRUNDLÆGGENDE WEB DESKTOP*/
+  /*02-GRUNDLÆGGENDE WEB DESKTOP*/
+
+  /*Overskrift 02 web DESKTOP*/
+  .weboverskrift h1 {
+    text-align: center;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-size: 50px;
+    font-style: normal;
+    color: #164aae;
+  }
+  /*Temabeskrivelse af 02 web DESKTOP*/
+  .temabeskrivelse {
+    display: block;
+    width: auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    text-align: start;
+  }
+  /*VISITKORT DESKTOP*/
+  .visitkort-overskrift h2 {
+    margin-top: 50px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+    text-align: center;
+  }
+  .visitkort {
+    display: block;
+    width: auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .visitkort img {
+    max-width: 800px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /*STUDIESTARTSPRØVE DESKTOP*/
+  .studiestartsprøve-overskrift h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .studiestartsprøve {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .studiestartsprøve img {
+    max-width: 600px;
+    height: auto;
+  }
+
+  /*LAYOUTDIAGRAM DESKTOP*/
+  .layoutdiagram h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .layoutdiagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .layoutdiagram img {
+    max-width: 600px;
+    height: auto;
+  }
+  /*KODE DESKTOP*/
+  .kode h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .kode p {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding: 20px;
+  }
+  .kode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .kode img {
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*PROCESS-BESKRIVELSE 02 DESKTOP*/
+  /*PROCESS OVERSKRIFT*/
+  .process {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+    margin-bottom: 20px;
+  }
+  /*PROCESS TEKST DESKTOP*/
+  .process-02 p {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    text-align: start;
+  }
+  /*TILBAGE TIL TOP KNAP*/ /*Genbrugt fra min index side opgave 05*/
+  .tilbage {
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+  .tilbage-button-container {
+    text-align: center;
+  }
+  .tilbage-button {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #d7b0b0;
+    color: #164aae;
+    border: 2px solid #164aae;
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .tilbage-button:hover {
+    background-color: #efede6;
+    color: #164aae;
+  }
+  /*SORT/HVID BILLEDE M. HOVER-EFFEKT*/ /*LAVET MED CHATGPT*/
+  .sort-hvid-billede {
+    width: 100%; /* Tilpas bredden efter dine behov */
+    height: auto; /* Juster højden automatisk */
+    display: block;
+    filter: grayscale(100%); /* Gør billedet sort-hvidt som standard */
+    transition: filter 0.3s ease; /* Tilføjer overgangseffekt */
+  }
+
+  .sort-hvid-billede:hover {
+    filter: grayscale(0%); /* Fjerner sort-hvid filtrering ved hover */
+  }
+  /*03 UX/UI-DESIGN DESKTOP*/
+  /*03 UX/UI-DESIGN DESKTOP*/
+  /*03 UX/UI-DESIGN DESKTOP*/
+  /*03 UX/UI-DESIGN DESKTOP*/
+  .uxui-overskrift h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+    font-size: 50px;
+  }
+  /*Temabeskrivelse af 03 UX/UI*/
+  .temabeskrivelse-ux-ui {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+  }
+  /*pdf-knap*/
+  .process-button {
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+  .process-button-container {
+    text-align: center;
+  }
+  .process-button {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #efede6;
+    color: #164aae;
+    border: 2px solid #164aae;
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .process-button:hover {
+    background-color: #d7b0b0;
+    color: #164aae;
+  }
+
+  /* 03 WIREFRAMES DESKTOP*/
+
+  /*WIREFRAMES OVERSKRIFT*/
+  .wireframes-overskrift h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .wireframes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .wireframes img {
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 100px;
+  }
+  /*HI-FI-WIREFRAME 03 DESKTOP*/
+  .hifi-overskrift h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .hifi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hifi img {
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 100px;
+  }
+
+  /*KLIKBAR PROTOTYPE DESKTOP*/
+  .klikbar-overskrift h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .klikbar-tekst {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding: 20px;
+    text-align: start;
+  }
+  .klikbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .klikbar img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 100px;
+  }
+
+  /* 03 MOODBOARD DESKTOP*/
+
+  /*MOODBOARD-OVERSKRIFT DESKTOP*/
+  .moodboard-overskrift h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .moodboard-tekst {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding: 20px;
+  }
+  .moodboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .moodboard img {
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 100px;
+  }
+
+  /* 03 STYLETILE DESKTOP*/
+
+  /*STYLETILE OVERSKRIFT DESKTOP*/
+  .styletile-overskrift h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .style-tekst {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding: 20px;
+  }
+  .styletile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .styletile img {
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 100px;
+  }
+
+  /*TEST 03 DESKTOP*/
+  .tests-overskrift h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .test-tekst {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding: 20px;
+  }
+  .test1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .test1 img {
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 100px;
+  }
+  .test2 img {
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 100px;
+  }
+}
+
+/*03 LAYOUTDIAGRAM DESKTOP*/
+
+/*LAYOUTDIAGRAM-OVERSKRIFT DESKTOP*/
+.layoutdiagram-overskrift h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #164aae;
+}
+.layoutdiagram-tekst {
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  color: #164aae;
+  font-style: normal;
+  font-weight: 200;
+  padding: 20px;
+  text-align: center;
+}
+.layoutdiagram img {
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 100px;
+}
+
+/*03 PRÆSENTATION DESKTOP*/
+
+/*PRÆSENTATION-OVERSKRIFT*/
+.præsentation-overskrift h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #164aae;
+}
+.feedback h2 {
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  color: #164aae;
+  font-style: normal;
+  font-weight: 200;
+  padding: 20px;
+  text-align: center;
+}
+.præsentation-tekst {
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  color: #164aae;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 1.5;
+}
+
+/*POWERPOINT KNAP DESKTOP*/
+.pp-præsentaion-button {
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+.pp-præsentaion-button-container {
+  text-align: center;
+}
+.pp-præsentaion-button {
+  display: inline-block;
+  padding: 20px 20px;
+  background-color: #d7b0b0;
+  color: #164aae;
+  border: 2px solid #164aae;
+  text-decoration: none;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.pp-præsentaion-button:hover {
+  background-color: #efede6;
+  color: #164aae;
+}
+/*MIN PROCESS 03 DESKTOP*/
+.process {
+  text-align: center;
+  margin-top: 100px;
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #164aae;
+}
+.process-03 {
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  color: #164aae;
+  font-style: normal;
+  font-weight: 200;
+  padding: 20px;
 }
 
 /*FOOTER*/
@@ -265,6 +770,16 @@ footer {
   line-height: 2;
   text-align: center;
 }
+
+/* MOBILESITE */ /* MOBILESITE */ /* MOBILESITE */ /* MOBILESITE */
+/* MOBILESITE */ /* MOBILESITE */ /* MOBILESITE */ /* MOBILESITE */
+/* MOBILESITE */ /* MOBILESITE */ /* MOBILESITE */ /* MOBILESITE */
+/* MOBILESITE */ /* MOBILESITE */ /* MOBILESITE */ /* MOBILESITE */
+/* MOBILESITE */ /* MOBILESITE */ /* MOBILESITE */ /* MOBILESITE */
+/* MOBILESITE */ /* MOBILESITE */ /* MOBILESITE */ /* MOBILESITE */
+/* MOBILESITE */ /* MOBILESITE */ /* MOBILESITE */ /* MOBILESITE */
+/* MOBILESITE */ /* MOBILESITE */ /* MOBILESITE */ /* MOBILESITE */
+/* MOBILESITE */ /* MOBILESITE */ /* MOBILESITE */ /* MOBILESITE */
 
 /* MOBILESITE */
 @media screen and (max-width: 600px) {
@@ -360,7 +875,6 @@ footer {
   /*OM MIG-SIDE MOBILESITE*/
   .overskrift h1 {
     text-align: start;
-    padding-left: 21px;
     margin-top: 30px;
     font-family: "poppins", sans-serif;
     font-weight: 200;
@@ -378,7 +892,7 @@ footer {
   }
 
   /*Portræt MOBILESITE*/
-  .billedecontainer {
+  .billede-container {
     width: 100%;
     display: flex;
     padding: 0; /* Jeg har lavet en container i div'en for ikke at ændre str. af det indre rum (så det ikke ser mindre ud)*/
@@ -387,7 +901,6 @@ footer {
   }
   .portræt {
     max-width: 250px;
-    height: auto; /*Bevarer billedets prorpotioner*/
     margin-top: 20px; /*Så billedet er tættere på h1*/
     margin-bottom: 20px;
   }
@@ -461,21 +974,13 @@ footer {
   }
 
   /*02-GRUNDLÆGGENDE WEB MOBILESITE*/
-  .weboverskrift {
+  .weboverskrift h1 {
     text-align: center;
     margin-top: 30px;
     font-family: "poppins", sans-serif;
     font-weight: 200;
     font-style: normal;
     color: #164aae;
-  }
-  .arbejde {
-    margin-top: 10px;
-    font-family: "poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    color: #164aae;
-    line-height: 1.5;
   }
   /*Temabeskrivelse af 02 web*/
   .temabeskrivelse {
@@ -490,27 +995,28 @@ footer {
   /*VISITKORT MOBILESITE*/
   .visitkort-overskrift h2 {
     text-align: center;
+    padding-left: 20px;
     margin-top: 30px;
     font-family: "poppins", sans-serif;
     font-weight: 200;
     font-style: normal;
     color: #164aae;
   }
-  .visitkort-beskrivelse {
+  .visitkort {
     display: block;
     width: auto;
-    margin: 0 auto;
     color: #164aae;
     font-style: normal;
     font-weight: 200;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .visitkort img {
     max-width: 250px;
     height: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 100px;
   }
 
   /*STUDIESTARTSPRØVE MOBILESITE*/
@@ -522,21 +1028,14 @@ footer {
     font-style: normal;
     color: #164aae;
   }
-  .studiestartsprøve-beskrivelse {
-    display: block;
-    width: auto;
-    margin: 0 auto;
-    color: #164aae;
-    font-style: normal;
-    font-weight: 200;
-    padding: 20px;
+  .studiestartsprøve {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .studiestartsprøve img {
     max-width: 250px;
     height: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 100px;
   }
 
   /*LAYOUTDIAGRAM MOBILESITE*/
@@ -551,12 +1050,12 @@ footer {
   .layoutdiagram img {
     max-width: 250px;
     height: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   /*KODE MOBILESITE*/
-  .kode-overskrift h2 {
+  .kode h2 {
     text-align: center;
     margin-top: 30px;
     font-family: "poppins", sans-serif;
@@ -564,7 +1063,7 @@ footer {
     font-style: normal;
     color: #164aae;
   }
-  .kode-beskrivelse {
+  .kode p {
     display: block;
     width: auto;
     margin: 0 auto;
@@ -581,6 +1080,7 @@ footer {
     margin-left: 100px;
   }
   /*PROCESS-BESKRIVELSE 02 MOBILESITE*/
+  /*PROCESS OVERSKRIFT*/
   .process {
     text-align: center;
     margin-top: 30px;
@@ -589,6 +1089,7 @@ footer {
     font-style: normal;
     color: #164aae;
   }
+  /*PROCESS TEKST MOBILESITE*/
   .process-02 {
     display: block;
     width: auto;
@@ -609,21 +1110,36 @@ footer {
   .tilbage-button {
     display: inline-block;
     padding: 20px 20px;
-    background-color: #6d3636;
-    color: #d7b0b0;
-    border: 2px solid #d7b0b0;
+    background-color: #d7b0b0;
+    color: #164aae;
+    border: 2px solid #164aae;
     text-decoration: none;
     border-radius: 5px;
     transition-duration: 0.4s;
     cursor: pointer;
   }
   .tilbage-button:hover {
-    background-color: #6d3636;
-    color: #d7b0b0;
+    background-color: #efede6;
+    color: #164aae;
+  }
+  /*SORT/HVID BILLEDE M. HOVER-EFFEKT*/ /*LAVET MED CHATGPT*/
+  .sort-hvid-billede {
+    width: 100%; /* Tilpas bredden efter dine behov */
+    height: auto; /* Juster højden automatisk */
+    display: block;
+    filter: grayscale(100%); /* Gør billedet sort-hvidt som standard */
+    transition: filter 0.3s ease; /* Tilføjer overgangseffekt */
+  }
+
+  .sort-hvid-billede:hover {
+    filter: grayscale(0%); /* Fjerner sort-hvid filtrering ved hover */
   }
 
   /*03 UX/UI-DESIGN MOBILESITE*/
-  .uxui-overskrift {
+  /*03 UX/UI-DESIGN MOBILESITE*/
+  /*03 UX/UI-DESIGN MOBILESITE*/
+  /*03 UX/UI-DESIGN MOBILESITE*/
+  .uxui-overskrift h1 {
     text-align: center;
     margin-top: 30px;
     font-family: "poppins", sans-serif;
@@ -641,6 +1157,30 @@ footer {
     font-weight: 200;
     padding: 20px;
   }
+  /*pdf-knap*/
+  .process-button {
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+  .process-button-container {
+    text-align: center;
+  }
+  .process-button {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #efede6;
+    color: #164aae;
+    border: 2px solid #164aae;
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .process-button:hover {
+    background-color: #d7b0b0;
+    color: #164aae;
+  }
+
   /* 03 WIREFRAMES*/
 
   /*WIREFRAMES OVERSKRIFT MOBILESITE*/
@@ -652,15 +1192,6 @@ footer {
     font-style: normal;
     color: #164aae;
   }
-  .wireframes-tekst {
-    display: block;
-    width: auto;
-    margin: 0 auto;
-    color: #164aae;
-    font-style: normal;
-    font-weight: 200;
-    padding: 20px;
-  }
   .wireframes img {
     max-width: 250px;
     height: auto;
@@ -668,7 +1199,42 @@ footer {
     margin-bottom: 20px;
     margin-left: 100px;
   }
-  .wireframesto img {
+  /*HI-FI-WIREFRAME 03 MOBILESITE*/
+  .hifi-overskrift h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .hifi img {
+    max-width: 250px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+  }
+  /*KLIKBAR PROTOTYPE MOBILSITE*/
+  .klikbar-overskrift h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .klikbar-tekst {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding: 20px;
+    text-align: center;
+  }
+  .klikbar img {
     max-width: 250px;
     height: auto;
     margin-top: 20px;
@@ -695,6 +1261,7 @@ footer {
     font-style: normal;
     font-weight: 200;
     padding: 20px;
+    text-align: center;
   }
   .moodboard img {
     max-width: 250px;
@@ -723,6 +1290,7 @@ footer {
     font-style: normal;
     font-weight: 200;
     padding: 20px;
+    text-align: center;
   }
   .styletile img {
     max-width: 250px;
@@ -732,37 +1300,7 @@ footer {
     margin-left: 100px;
   }
 
-  /*03 HI-FI-WIREFRAME MOBILESITE*/
-
-  /*HI-FI-WIREFRAME-OVERSKRIFT*/
-  .hifi-overskrift h2 {
-    text-align: center;
-    margin-top: 30px;
-    font-family: "poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    color: #164aae;
-  }
-  .hifi-tekst {
-    display: block;
-    width: auto;
-    margin: 0 auto;
-    color: #164aae;
-    font-style: normal;
-    font-weight: 200;
-    padding: 20px;
-  }
-  .hifi img {
-    max-width: 250px;
-    height: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 100px;
-  }
-
-  /*03 TESTS MOBILESITE*/
-
-  /*TESTS-OVERSKRIFT*/
+  /*TEST 03*/
   .tests-overskrift h2 {
     text-align: center;
     margin-top: 30px;
@@ -779,9 +1317,9 @@ footer {
     font-style: normal;
     font-weight: 200;
     padding: 20px;
+    text-align: center;
   }
-  test img,
-  img {
+  .test03 img {
     max-width: 250px;
     height: auto;
     margin-top: 20px;
@@ -820,7 +1358,7 @@ footer {
   /*03 KODE MOBILESITE*/
 
   /*KODE-OVERSKRIFT*/
-  .kode-overskrift h2 {
+  .præsentation-overskrift h1 {
     text-align: center;
     margin-top: 30px;
     font-family: "poppins", sans-serif;
@@ -828,7 +1366,7 @@ footer {
     font-style: normal;
     color: #164aae;
   }
-  .kode-tekst {
+  .feedback h2 {
     display: block;
     width: auto;
     margin: 0 auto;
@@ -837,13 +1375,57 @@ footer {
     font-weight: 200;
     padding: 20px;
   }
-  .kode img,
-  img {
-    max-width: 250px;
-    height: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 100px;
+  .præsentation-tekst {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding: 20px;
   }
+
+  /*POWERPOINT KNAP*/
+  .pp-præsentaion-button {
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+  .pp-præsentaion-button-container {
+    text-align: center;
+  }
+  .pp-præsentaion-button {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #d7b0b0;
+    color: #164aae;
+    border: 2px solid #164aae;
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .pp-præsentaion-button:hover {
+    background-color: #efede6;
+    color: #164aae;
+  }
+  /*MIN PROCESS 03 MOBILESITE*/
+  .process h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .process-03 {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding: 20px;
+  }
+
   /* 04 ANIMATION - MOBILESITE*/
 }
