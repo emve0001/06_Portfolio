@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+img {
+  align-self: stretch;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  grid-row: 4 / span 4;
+}
+
+@media (min-width: 800px) {
+  .grid_4col_1-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}

@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (min-width: 800px) {
+  .con_2col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

@@ -102,7 +102,30 @@ nav {
     margin: 400px;
     margin-top: 80px;
   }
-
+  /*KNAP TIL ALLE SITES 02-05*/
+  .linktilside-button {
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+  .link-button-container {
+    text-align: center;
+    margin: 50px;
+  }
+  .link-button {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #efede6;
+    color: #164aae;
+    border: 2px solid #164aae;
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .link-button:hover {
+    background-color: #d7b0b0;
+    color: #164aae;
+  }
   /*FORSIDE-BILLEDE*/
   .container {
     display: flex;
@@ -159,6 +182,7 @@ nav {
     font-family: "poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
+    font-size: 50px;
     color: #164aae;
     margin: 0;
     margin-bottom: 50px;
@@ -171,6 +195,7 @@ nav {
     color: #164aae;
     width: 100%;
     line-height: 1;
+    padding-left: 10px;
   }
   .ommigtekst p {
     margin-top: 10px;
@@ -180,6 +205,7 @@ nav {
     color: #164aae;
     width: 100%;
     line-height: 2;
+    padding-left: 10px;
   }
   .billede-container {
     width: 50%; /* UNDERSØG DENNE KOMMENTAR!!!så billedet fylder halvdelen af skærmen*/
@@ -187,6 +213,7 @@ nav {
     padding: 0; /* Jeg har lavet en container i div'en for ikke at ændre str. af det indre rum (så det ikke ser mindre ud)*/
     justify-content: flex-start; /*indholdet starter fra venstre side af containeren*/
     align-items: flex-start; /*så indholdet starter fra toppen af containeren*/
+    padding-right: 10px;
   }
   /*PORTRÆT BILLEDE DESKTOP*/
   .portræt {
@@ -226,18 +253,27 @@ nav {
     font-style: normal;
   }
   /*CV overskrift DESKTOP*/
-  .overskriftcv-skills,
-  h1 {
+  .overskriftcv-skills {
     text-align: start;
     margin-top: 30px;
     font-family: "poppins", sans-serif;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
     color: #164aae;
     margin-bottom: 20px;
+    font-size: 40px;
   }
   /*UNDEROVERSKRIFT DESKTOP*/
-  .relevante {
+  .relevante h2 {
+    margin-top: 10px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+    text-align: start;
+    margin-bottom: 30px;
+  }
+  .arbejde-overskrift {
     margin-top: 10px;
     font-family: "poppins", sans-serif;
     font-weight: 200;
@@ -461,7 +497,7 @@ nav {
   }
   /*pdf-knap*/
   .process-button {
-    margin-top: 70px;
+    margin-top: 20px;
     margin-bottom: 30px;
   }
   .process-button-container {
@@ -750,6 +786,564 @@ nav {
   font-weight: 200;
   padding: 20px;
 }
+/* 04 ANIMATION DESKTOP*/
+/* 04 ANIMATION - DESKTOP*/
+/* 04 ANIMATION - DESKTOP*/
+/* 04 ANIMATION - DESKTOP*/
+/* 04 ANIMATION - DESKTOP*/
+
+/*04-ANIMATION DESKTOP*/
+.animation-overskrift h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #164aae;
+  padding: 20px;
+  font-size: 50px;
+}
+/*Temabeskrivelse af 04 ANIMATION DESKTOP*/
+.temabeskrivelse-animation p {
+  display: block;
+  width: auto;
+  color: #164aae;
+  font-style: normal;
+  font-weight: 200;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1.5;
+}
+/*Mit spil DESKTOP*/
+.mit-spil h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #164aae;
+}
+.spil-beskrivelse {
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  color: #164aae;
+  font-style: normal;
+  font-weight: 200;
+  padding: 20px;
+  line-height: 1.5;
+  margin-bottom: 100px;
+}
+/*SKETCHES DESKTOP*/
+.scetch-overskrift h2 {
+  text-align: center;
+  padding-left: 20px;
+  margin-top: 30px;
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #164aae;
+}
+.scetch {
+  display: block;
+  width: auto;
+  color: #164aae;
+  font-style: normal;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scetch img {
+  max-width: 400px;
+  height: auto;
+  margin-bottom: 100px;
+}
+
+/*SPILLETS KARAKTERE 04 DESKTOP*/
+.karaktere-overskrift h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #164aae;
+}
+.karaktere-tekst {
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  color: #164aae;
+  font-style: normal;
+  font-weight: 200;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.karaktere {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.karaktere img {
+  max-width: 250px;
+  height: auto;
+}
+
+/*SPILLETS BAGGRUNDE 04 DESKTOP */
+.baggrunde-overskrift h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #164aae;
+}
+.baggrunde-tekst {
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  color: #164aae;
+  font-style: normal;
+  font-weight: 200;
+  padding: 20px;
+}
+.baggrunde {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.baggrunde img {
+  max-width: 250px;
+  height: auto;
+}
+/*STATEMACHINE-DIAGRAM 04 DESKTOP*/
+.statemachine-overskrift h2 {
+  text-align: center;
+  margin-top: 120px;
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #164aae;
+}
+.statemachine-tekst {
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  color: #164aae;
+  font-style: normal;
+  font-weight: 200;
+  padding: 20px;
+}
+.statemachine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.statemachine img {
+  max-width: 500px;
+  height: auto;
+}
+/*PROCESS-BESKRIVELSE 04 DESKTOP*/
+/*PROCESS OVERSKRIFT*/
+.process {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #164aae;
+  margin-top: 120px;
+}
+/*PROCESS TEKST DESKTOP*/
+.process-04 {
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  color: #164aae;
+  font-style: normal;
+  font-weight: 200;
+  padding: 20px;
+  line-height: 1.5;
+}
+/*TILBAGE TIL TOP KNAP DESKTOP*/ /*Genbrugt fra min index side opgave 05*/
+.tilbage {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.tilbage-button-container {
+  text-align: center;
+}
+.tilbage-button {
+  display: inline-block;
+  padding: 20px 20px;
+  background-color: #d7b0b0;
+  color: #164aae;
+  border: 2px solid #164aae;
+  text-decoration: none;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.tilbage-button:hover {
+  background-color: #efede6;
+  color: #164aae;
+}
+/*SORT/HVID BILLEDE M. HOVER-EFFEKT*/ /*LAVET MED CHATGPT*/
+.sort-hvid-billede {
+  width: 100%; /* Tilpas bredden efter dine behov */
+  height: auto; /* Juster højden automatisk */
+  display: block;
+  filter: grayscale(100%); /* Gør billedet sort-hvidt som standard */
+  transition: filter 0.3s ease; /* Tilføjer overgangseffekt */
+}
+
+.sort-hvid-billede:hover {
+  filter: grayscale(0%); /* Fjerner sort-hvid filtrering ved hover */
+}
+/*GRUNDLÆGGENDE INDHOLD 05 DESKTOP*/
+/*GRUNDLÆGGENDE INDHOLD 05 DESKTOP*/
+/*GRUNDLÆGGENDE INDHOLD 05 DESKTOP*/
+/*GRUNDLÆGGENDE INDHOLD 05 DESKTOP*/
+/*GRUNDLÆGGENDE INDHOLD 05 DESKTOP*/
+
+/*05-INDHOLD DESKTOP*/
+.indhold-overskrift h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #164aae;
+  padding: 20px;
+}
+/*Temabeskrivelse af 05 INDHOLD*/
+.indhold-overskrift h1 {
+  display: block;
+  width: auto;
+  color: #164aae;
+  font-style: normal;
+  font-weight: 200;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 50px;
+}
+.videosite {
+  display: block;
+  width: auto;
+  color: #164aae;
+  font-style: normal;
+  font-weight: 200;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+.temabeskrivelse-videosite {
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  color: #164aae;
+  font-style: normal;
+  font-weight: 200;
+  padding: 20px;
+  line-height: 1.5;
+}
+/*SE VIDEOSITE KNAP*/
+.video {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.video-button-container {
+  text-align: center;
+}
+.video-button {
+  display: inline-block;
+  padding: 20px 20px;
+  background-color: #efede6;
+  color: #164aae;
+  border: 2px solid #164aae;
+  text-decoration: none;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.video-button:hover {
+  background-color: #d7b0b0;
+  color: #164aae;
+}
+/*TEMABESKRIVELSE INDHOLD DESKTOP*/
+.temabeskrivelse-indhold h2 {
+  display: block;
+  width: auto;
+  color: #164aae;
+  font-style: normal;
+  font-weight: 200;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+.redesign-beskrivelse {
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  color: #164aae;
+  font-style: normal;
+  font-weight: 200;
+  padding: 20px;
+  line-height: 1.5;
+}
+/*wireframes 05 DESKTOP*/
+.wireframes05 h2 {
+  display: block;
+  width: auto;
+  color: #164aae;
+  font-style: normal;
+  font-weight: 200;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  margin-top: 70px;
+}
+.wireframes05 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/*SKABER LUFT UNDER BILLEDERNE*/
+.wireframes05 > * {
+  margin-bottom: 10px;
+}
+
+.wireframes05 img {
+  max-width: 250px;
+  height: auto;
+  margin-bottom: 70px;
+}
+/*ideudvikling 05 DESKTOP*/
+.ideudvikling05 h2 {
+  display: block;
+  width: auto;
+  color: #164aae;
+  font-style: normal;
+  font-weight: 200;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  margin-top: 70px;
+}
+.ideudvikling {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ideudvikling img {
+  max-width: 500px;
+  height: auto;
+  margin-bottom: 70px;
+}
+
+/*moodboard 05 DESKTOP*/
+.moodboard-overskrift05 h2 {
+  display: block;
+  width: auto;
+  color: #164aae;
+  font-style: normal;
+  font-weight: 200;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  margin-top: 70px;
+}
+.moodboard05 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.moodboard05 img {
+  max-width: 500px;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+/*SKETCHES INDHOLD DESKTOP*/
+.scetch-overskrift05 h2 {
+  display: block;
+  width: auto;
+  color: #164aae;
+  font-style: normal;
+  font-weight: 200;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  margin-top: 70px;
+}
+.scetch-tekst {
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  color: #164aae;
+  font-style: normal;
+  font-weight: 200;
+  padding: 20px;
+  text-align: center;
+}
+/*SKABER LUFT UNDER BILLEDERNE*/
+.scetch-05 > * {
+  margin-bottom: 10px;
+}
+.scetch-05 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.scetch-05 img {
+  max-width: 500px;
+  height: auto;
+  margin-bottom: 70px;
+}
+
+/*STILETYLE  05 DESKTOP*/
+.styletile-overskrift05 h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #164aae;
+}
+
+.styletile05 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.styletile05 img {
+  max-width: 500px;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+/* TESTS 05 DESKTOP */
+.tests-overskrift05 h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #164aae;
+  margin-top: 70px;
+}
+.test-tekst {
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  color: #164aae;
+  font-style: normal;
+  font-weight: 200;
+  padding: 20px;
+  text-align: start;
+}
+.test-05 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.test-05 img {
+  max-width: 500px;
+  height: auto;
+  margin-bottom: 50px;
+}
+/* LAYOUTDIAGRAM 05 DESKTOP */
+.layoutdiagram-overskrift05 h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #164aae;
+  margin-top: 70px;
+}
+.layoutdiagram-tekst05 {
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  color: #164aae;
+  font-style: normal;
+  font-weight: 200;
+  padding: 20px;
+  text-align: center;
+}
+.layoutdiagram05 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.layoutdiagram05 img {
+  max-width: 400px;
+  height: auto;
+}
+
+/*PROCESS-BESKRIVELSE 05 DESKTOP*/
+/*PROCESS OVERSKRIFT*/
+.process h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: #164aae;
+  margin-top: 70px;
+}
+/*PROCESS TEKST DESKTOP*/
+.process-05 {
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  color: #164aae;
+  font-style: normal;
+  font-weight: 200;
+}
+/*TILBAGE TIL TOP KNAP*/ /*Genbrugt fra min index side opgave 05*/
+.tilbage {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.tilbage-button-container {
+  text-align: center;
+  margin-top: 80px;
+}
+.tilbage-button {
+  display: inline-block;
+  padding: 20px 20px;
+  background-color: #d7b0b0;
+  color: #164aae;
+  border: 2px solid #164aae;
+  text-decoration: none;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.tilbage-button:hover {
+  background-color: #efede6;
+  color: #164aae;
+}
+/*SORT/HVID BILLEDE M. HOVER-EFFEKT*/ /*LAVET MED CHATGPT*/
+.sort-hvid-billede {
+  width: 100%; /* Tilpas bredden efter dine behov */
+  height: auto; /* Juster højden automatisk */
+  display: block;
+  filter: grayscale(100%); /* Gør billedet sort-hvidt som standard */
+  transition: filter 0.3s ease; /* Tilføjer overgangseffekt */
+}
+
+.sort-hvid-billede:hover {
+  filter: grayscale(0%); /* Fjerner sort-hvid filtrering ved hover */
+}
 
 /*FOOTER*/
 footer {
@@ -832,6 +1426,30 @@ footer {
     font-size: 25px;
   }
 
+  /*KNAP TIL ALLE SITES 02-05*/
+  .linktilside-button {
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+  .link-button-container {
+    text-align: center;
+    margin: 50px;
+  }
+  .link-button {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #efede6;
+    color: #164aae;
+    border: 2px solid #164aae;
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .link-button:hover {
+    background-color: #d7b0b0;
+    color: #164aae;
+  }
   /*INDEX-SIDE MOBILESITE*/
   .containerindex {
     display: flex;
@@ -880,6 +1498,7 @@ footer {
     font-weight: 200;
     font-style: normal;
     color: #164aae;
+    padding-left: 20px;
   }
   .hejmedstort {
     margin-top: 10px;
@@ -937,25 +1556,26 @@ footer {
     text-align: start;
     margin-top: 30px;
     font-family: "poppins", sans-serif;
-    font-weight: 400;
+    font-weight: 200;
+    font-size: 40px;
     font-style: normal;
     color: #164aae;
   }
   /*UNDEROVERSKRIFT*/
-  .relevante {
+  .relevante h2 {
     margin-top: 30px;
     font-family: "poppins", sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-style: normal;
     color: #164aae;
     text-align: start;
+    line-height: 1.5;
   }
   /*Overskrift, starter ved Relevante joberfaringer etc*/
   .cv h2 {
     margin-top: 10px;
     font-family: "poppins", sans-serif;
     font-weight: 200;
-    font-size: x-large;
     font-style: normal;
     color: #164aae;
   }
@@ -971,6 +1591,13 @@ footer {
   .cv p {
     margin: 0; /* Nulstil margen, hvis det er nødvendigt */
     padding-left: 20px; /* nulstiller p's padding for at justere det separat */
+  }
+  .arbejde-overskrift {
+    margin-top: 10px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
   }
 
   /*02-GRUNDLÆGGENDE WEB MOBILESITE*/
@@ -1124,11 +1751,11 @@ footer {
   }
   /*SORT/HVID BILLEDE M. HOVER-EFFEKT*/ /*LAVET MED CHATGPT*/
   .sort-hvid-billede {
-    width: 100%; /* Tilpas bredden efter dine behov */
-    height: auto; /* Juster højden automatisk */
+    width: 100%;
+    height: auto;
     display: block;
-    filter: grayscale(100%); /* Gør billedet sort-hvidt som standard */
-    transition: filter 0.3s ease; /* Tilføjer overgangseffekt */
+    filter: grayscale(100%);
+    transition: filter 0.3s ease; /* Tilføjer overgangseffekt*/
   }
 
   .sort-hvid-billede:hover {
@@ -1159,7 +1786,7 @@ footer {
   }
   /*pdf-knap*/
   .process-button {
-    margin-top: 70px;
+    margin-top: 10px;
     margin-bottom: 30px;
   }
   .process-button-container {
@@ -1319,7 +1946,7 @@ footer {
     padding: 20px;
     text-align: center;
   }
-  .test03 img {
+  .test1 img {
     max-width: 250px;
     height: auto;
     margin-top: 20px;
@@ -1428,4 +2055,546 @@ footer {
   }
 
   /* 04 ANIMATION - MOBILESITE*/
+  /* 04 ANIMATION - MOBILESITE*/
+  /* 04 ANIMATION - MOBILESITE*/
+  /* 04 ANIMATION - MOBILESITE*/
+
+  /*04-ANIMATION MOBILESITE*/
+  .animation-overskrift h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+    padding: 20px;
+  }
+  /*Temabeskrivelse af 04 ANIMATION*/
+  .temabeskrivelse-animation p {
+    display: block;
+    width: auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /*Mit spil*/
+  .mit-spil h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .spil-beskrivelse {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding: 20px;
+  }
+  /*SKETCHES MOBILESITE*/
+  .scetch-overskrift h2 {
+    text-align: center;
+    padding-left: 20px;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .scetch {
+    display: block;
+    width: auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .scetch img {
+    max-width: 250px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /*SPILLETS KARAKTERE 04 MOBILESITE*/
+  .karaktere-overskrift h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .karaktere-tekst {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding: 20px;
+  }
+  .karaktere {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .karaktere img {
+    max-width: 250px;
+    height: auto;
+  }
+
+  /*SPILLETS BAGGRUNDE 04 MOBILESITE */
+  .baggrunde-overskrift h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .baggrunde-tekst {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding: 20px;
+  }
+  .baggrunde {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .baggrunde img {
+    max-width: 250px;
+    height: auto;
+  }
+  /*STATEMACHINE-DIAGRAM 04 MOBILESITE*/
+  .statemachine-overskrift h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .statemachine-tekst {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding: 20px;
+  }
+  .statemachine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .statemachine img {
+    max-width: 250px;
+    height: auto;
+  }
+  /*PROCESS-BESKRIVELSE 04 MOBILESITE*/
+  /*PROCESS OVERSKRIFT*/
+  .process {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  /*PROCESS TEKST MOBILESITE*/
+  .process-04 {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding: 20px;
+  }
+  /*TILBAGE TIL TOP KNAP*/ /*Genbrugt fra min index side opgave 05*/
+  .tilbage {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .tilbage-button-container {
+    text-align: center;
+  }
+  .tilbage-button {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #d7b0b0;
+    color: #164aae;
+    border: 2px solid #164aae;
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .tilbage-button:hover {
+    background-color: #efede6;
+    color: #164aae;
+  }
+  /*SORT/HVID BILLEDE M. HOVER-EFFEKT*/ /*LAVET MED CHATGPT*/
+  .sort-hvid-billede {
+    width: 100%; /* Tilpas bredden efter dine behov */
+    height: auto; /* Juster højden automatisk */
+    display: block;
+    filter: grayscale(100%); /* Gør billedet sort-hvidt som standard */
+    transition: filter 0.3s ease; /* Tilføjer overgangseffekt */
+  }
+
+  .sort-hvid-billede:hover {
+    filter: grayscale(0%); /* Fjerner sort-hvid filtrering ved hover */
+  }
+
+  /* 05 INDHOLD - MOBILESITE*/
+  /* 05 INDHOLD - MOBILESITE*/
+  /* 05 INDHOLD - MOBILESITE*/
+  /* 05 INDHOLD - MOBILESITE*/
+
+  /*05-INDHOLD MOBILESITE*/
+  .indhold-overskrift h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+    padding: 20px;
+  }
+  /*Temabeskrivelse af 05 INDHOLD*/
+  .indhold-overskrift h1 {
+    display: block;
+    width: auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 50px;
+  }
+  .videosite {
+    display: block;
+    width: auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  .temabeskrivelse-videosite {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding: 20px;
+  }
+  /*SE VIDEOSITE KNAP*/
+  .video {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .video-button-container {
+    text-align: center;
+  }
+  .video-button {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #efede6;
+    color: #164aae;
+    border: 2px solid #164aae;
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .video-button:hover {
+    background-color: #d7b0b0;
+    color: #164aae;
+  }
+  /*TEMABESKRIVELSE INDHOLD MOBILESITE*/
+  .temabeskrivelse-indhold h2 {
+    display: block;
+    width: auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  .redesign-beskrivelse {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding: 20px;
+  }
+  /*wireframes 05 mobilesite*/
+  .wireframes05 h2 {
+    display: block;
+    width: auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  .wireframes05 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /*SKABER LUFT UNDER BILLEDERNE*/
+  .wireframes05 > * {
+    margin-bottom: 10px;
+  }
+
+  .wireframes05 img {
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 70px;
+  }
+  /*ideudvikling 05 mobilesite*/
+  .ideudvikling05 h2 {
+    display: block;
+    width: auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  .ideudvikling {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ideudvikling img {
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 70px;
+  }
+
+  /*moodboard 05 mobilesite*/
+  .moodboard-overskrift05 h2 {
+    display: block;
+    width: auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  .moodboard05 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .moodboard05 img {
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 50px;
+  }
+
+  /*SKETCHES INDHOLD MOBILESITE*/
+  .scetch-overskrift05 h2 {
+    display: block;
+    width: auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    margin-top: 70px;
+  }
+  .scetch-tekst {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding: 20px;
+    text-align: center;
+  }
+  /*SKABER LUFT UNDER BILLEDERNE*/
+  .scetch-05 > * {
+    margin-bottom: 10px;
+  }
+  .scetch-05 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .scetch-05 img {
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 70px;
+  }
+
+  /*STILETYLE  05 MOBILESITE*/
+  .styletile-overskrift05 h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+
+  .styletile05 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .styletile05 img {
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 50px;
+  }
+
+  /* TESTS 05 MOBILESITE */
+  .tests-overskrift05 h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  .test-tekst {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding: 20px;
+    text-align: start;
+  }
+  .test-05 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .test-05 img {
+    max-width: 250px;
+    height: auto;
+  }
+  /* LAYOUTDIAGRAM 05 MOBILESITE */
+  .layoutdiagram-overskrift05 h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+    margin-top: 70px;
+  }
+  .layoutdiagram-tekst05 {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding: 20px;
+  }
+  .layoutdiagram05 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .layoutdiagram05 img {
+    max-width: 250px;
+    height: auto;
+  }
+
+  /*PROCESS-BESKRIVELSE 05 MOBILESITE*/
+  /*PROCESS OVERSKRIFT*/
+  .process {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #164aae;
+  }
+  /*PROCESS TEKST MOBILESITE*/
+  .process-05 {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    color: #164aae;
+    font-style: normal;
+    font-weight: 200;
+    padding: 20px;
+    text-align: start;
+  }
+  /*TILBAGE TIL TOP KNAP*/ /*Genbrugt fra min index side opgave 05*/
+  .tilbage {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .tilbage-button-container {
+    text-align: center;
+  }
+  .tilbage-button {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: #d7b0b0;
+    color: #164aae;
+    border: 2px solid #164aae;
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .tilbage-button:hover {
+    background-color: #efede6;
+    color: #164aae;
+  }
+  /*SORT/HVID BILLEDE M. HOVER-EFFEKT*/ /*LAVET MED CHATGPT*/
+  .sort-hvid-billede {
+    width: 100%; /* Tilpas bredden efter dine behov */
+    height: auto; /* Juster højden automatisk */
+    display: block;
+    filter: grayscale(100%); /* Gør billedet sort-hvidt som standard */
+    transition: filter 0.3s ease; /* Tilføjer overgangseffekt */
+  }
+
+  .sort-hvid-billede:hover {
+    filter: grayscale(0%); /* Fjerner sort-hvid filtrering ved hover */
+  }
 }

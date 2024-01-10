@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(236, 223, 208);
+}
+
+.container {
+  text-align: center;
+}
+
+header {
+  color: rgb(236, 223, 208);
+  position: static;
+  top: 0;
+  margin: 0;
+
+  box-shadow: 0 12px 28px 0 rgba(247, 244, 244, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+.menu a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+header nav ul,
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0;
+  overflow-x: auto;
+  align-items: self-start;
+  font-size: 10px;
+}
+header nav ul {
+  gap: 1rem;
+}
+
+.baggrundsbillede-forside {
+  background-image: url("mobilforside.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 439px;
+}
+
+.forside {
+  text-decoration: none;
+  background-color: rgb(236, 223, 208);
+  margin-left: 0;
+  padding: 0%;
+}
+.Formgivning {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+.tekstcontainer {
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+}
+.tekstcontainer {
+  width: 50%;
+  margin: auto;
+}
+
+p {
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  padding: 50px;
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  line-height: 1.5;
+}
+
+.drejeplade {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  margin: 0;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+footer img {
+  width: 40px;
+  height: auto;
+}
+
+/* Stel */
+
+.baggrundsbillede-forside2 {
+  background-image: url("blandetstelbaggrund.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 439px;
+}
+.Stel {
+  text-align: center;
+}

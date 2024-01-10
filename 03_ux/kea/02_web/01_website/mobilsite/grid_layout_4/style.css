@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* Her er et grid. Jeg ved der står 2col hvilket svarer til to colonner */
+.grid_2col_2-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+@media (min-width: 800px) {
+  .grid_2col_1-1 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+  }
+  .order {
+    order: -2;
+  }
+}

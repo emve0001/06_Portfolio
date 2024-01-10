@@ -1,0 +1,8 @@
+@media (min-width: 800px) {
+  .Tekstformgivning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+}
